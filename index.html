@@ -8,10 +8,21 @@
   </head>
   <body>
     <main class="container">
-      <h1 id="container__clock" class="clock">A simple calculator</h1>
+      <h1 id="container__clock" class="clock"></h1>
       <div class="container__aligner">
-        <form id="search_form">
-           <input class="search__feild" placeholder="search" name="search" id="search" type="text" class="validate">
+        <form id="conatiner__form">
+           <h2 class="container__val">Value: 1</h2>
+           <input class="container__input container__input--1" type="text" id="value1">
+           <h2 class="container__val">Value: 2 </h2>
+           <input class="container__input container__input--2" type="text" id="value2">
+           <h2 class="container__operator">Operator:</h2>
+           <select id="selector" class="container__selector">
+             <option value="add">Add</option>
+             <option value="sub">Subtract</option>
+             <option value="maul">Maultiply</option>
+             <option value="div">Divide</option>
+           </select>
+           <button id="container__btn"type="button" class="container__btn">Calculate</button>
         </form>
       </div>
     </main>

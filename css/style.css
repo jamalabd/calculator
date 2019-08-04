@@ -25,3 +25,19 @@ body {
   left: 50%;
   transform: translate(-50%,-50%);
 }
+.container__val {
+  display: block;
+  margin: 2rem;
+  color: #fff;
+}
+.container__input {
+  border-radius: .3rem;
+  height: 1.5rem;
+}
+.container__input:focus {
+  outline: none;
+}
+
+.container__operator {
+  color: #fff;
+}
