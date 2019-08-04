@@ -1,0 +1,27 @@
+body {
+  padding-top: 20px;
+  font-size: 10px;
+  background-image: linear-gradient(to right, #996cff, #f22b2b );
+}
+.clock {
+  color: #fff;
+  font-size: 2rem;
+  font-family: 'Iceland', sans-serif;
+}
+.container {
+  padding-top: 4rem;
+  position: relative;
+  margin: 0 auto;
+  height: 80vh;
+  width: 50%;
+  background-color: #363638;
+  box-shadow: 0 1.5rem 6rem rgba(0, 0, 0, .8);
+  border-radius: .5rem;
+  text-align: center;
+}
+.container__aligner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
